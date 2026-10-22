@@ -1,0 +1,22 @@
+# SmartVoyage 娓氭繆绂嗛敍鍫熷瘻娴ｇ姷娈戦悧鍫熸拱濞撳懎宕?+ 鏉╂劘顢戞宀冪槈閿?# 濞夘煉绱癱hat_service.py 娴ｈ法鏁?langgraph.prebuilt.create_react_agent閿涘潤angchain 0.3.x 缁涘鐜?API閿?langchain==0.3.26
+langchain-core==0.3.72
+langchain-community==0.3.27
+langchain-deepseek==0.1.4
+langchain-openai==0.3.28
+langchain-text-splitters==0.3.9
+langsmith==0.3.45
+langchain-mcp-adapters==0.1.11
+langgraph==0.6.11
+mcp==1.18.0
+mcp-server==0.1.4
+python-a2a==0.5.4
+fastapi==0.116.1
+starlette==0.47.2
+uvicorn==0.35.0
+openai==1.97.1
+pydantic==2.11.7
+pydantic-settings==2.10.1
+sse-starlette==3.0.2
+pymysql==1.4.6
+requests==2.34.2
+python-dotenv==1.0.1

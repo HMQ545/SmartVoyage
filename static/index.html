@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartVoyage 旅游智能体</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <button id="new-session" class="new-session">＋ 新建会话</button>
+            <div id="session-list" class="session-list"></div>
+        </aside>
+        <div class="main">
+            <header class="header">
+                <h1>🧳 SmartVoyage 旅游智能体</h1>
+                <p class="subtitle">天气 · 机票 · 火车票 · 演唱会 · 租车 · 旅游团 · 保险</p>
+            </header>
+            <main id="chat" class="chat"></main>
+            <footer class="input-bar">
+                <input id="input" type="text" placeholder="例如：帮我查一下8月8日上海到南京的机票" autocomplete="off">
+                <button id="send">发送</button>
+            </footer>
+        </div>
+    </div>
+    <script src="/static/vendor/marked.min.js"></script>
+    <script src="/static/vendor/purify.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>
